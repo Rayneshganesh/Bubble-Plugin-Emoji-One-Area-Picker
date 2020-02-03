@@ -1,0 +1,48 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "EmojiConverter",
+    "fields": {
+        "AAJ": {
+            "caption": "Content",
+            "editor": "DynamicValue",
+            "name": "content",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "From",
+            "default_val": "shortname",
+            "editor": "Dropdown",
+            "name": "from",
+            "options": "shortname,unicode",
+            "rank": 1
+        },
+        "AAM": {
+            "caption": "To",
+            "default_val": "image",
+            "editor": "Dropdown",
+            "name": "to",
+            "options": "shortname,unicode,image",
+            "rank": 2
+        }
+    },
+    "icon": "ion-happy",
+    "property_applications": {
+        "resizable": true
+    },
+    "states": {
+        "AAK": {
+            "caption": "Converted Content",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "converted_content",
+            "value": "text"
+        }
+    }
+}

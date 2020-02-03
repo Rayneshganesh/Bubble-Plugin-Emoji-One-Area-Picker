@@ -1,0 +1,23 @@
+{
+    "assets": {
+        "AAC": {
+            "name": "emojionearea.min.css",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1567210800891x335147875547797900/emojionearea.min.css"
+        },
+        "AAD": {
+            "name": "emojionearea.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1567210817058x982441717245654300/emojionearea.min.js"
+        },
+        "AAH": {
+            "name": "emojione.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1567263936842x277230573488236770/emojione.min.js"
+        },
+        "AAI": {
+            "name": "emojione.min.css",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1567263960221x676548353391139800/emojione.min.css"
+        }
+    },
+    "dependencies": {
+        "use_jquery": true
+    }
+}

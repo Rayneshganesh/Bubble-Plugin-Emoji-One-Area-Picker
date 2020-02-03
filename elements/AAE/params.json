@@ -1,0 +1,247 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 40,
+        "width": 40
+    },
+    "display": "EmojiOA",
+    "fields": {
+        "AAF": {
+            "caption": "ID Attribute",
+            "default_val": "",
+            "doc": "Use a single or multi line native Bubble input and set ID Attribute on it. Copy it here.",
+            "editor": "StaticText",
+            "name": "id_attribute",
+            "rank": 0
+        },
+        "AAO": {
+            "caption": "Picker Position",
+            "default_val": "bottom",
+            "doc": "Popup picker position",
+            "editor": "Dropdown",
+            "name": "picker_position",
+            "options": "top,right,bottom",
+            "rank": 1
+        },
+        "AAP": {
+            "caption": "Hide on blur",
+            "default_val": true,
+            "doc": "Hide picker if user click somewhere else",
+            "editor": "DynamicValue",
+            "name": "hide_on_blur",
+            "rank": 2,
+            "value": "boolean"
+        },
+        "AAR": {
+            "caption": "Show Search Bar",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "show_search_bar",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAS": {
+            "caption": "Search Placeholder",
+            "default_val": "Search...",
+            "editor": "DynamicValue",
+            "name": "search_placeholder",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "Search Bar Position",
+            "default_val": "top",
+            "editor": "Dropdown",
+            "name": "search_bar_position",
+            "options": "top,bottom",
+            "rank": 5
+        },
+        "AAU": {
+            "caption": "Show Recent Emojis",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "show_recent_emojis",
+            "rank": 6,
+            "value": "boolean"
+        },
+        "AAV": {
+            "caption": "Filters Position",
+            "default_val": "bottom",
+            "editor": "Dropdown",
+            "name": "filters_position",
+            "options": "top,bottom",
+            "rank": 7
+        },
+        "AAW": {
+            "caption": "Show Tones",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "show_tones",
+            "rank": 8,
+            "value": "boolean"
+        },
+        "AAX": {
+            "caption": "Tones Style",
+            "default_val": "bullet",
+            "editor": "Dropdown",
+            "name": "tones_style",
+            "options": "bullet,radio,square,checkbox",
+            "rank": 9
+        },
+        "AAY": {
+            "caption": "Shortname",
+            "default_val": true,
+            "doc": "By default EmojioneArea parses only utf8 emojis (e.g. 😀😊😍🤑😜🤓) from the value of the input source. This option enables to parse also the shortnames (e.g. :smile:, :smiley:, :cat:, etc).",
+            "editor": "DynamicValue",
+            "name": "shortname",
+            "rank": 10,
+            "value": "boolean"
+        },
+        "AAZ": {
+            "caption": "Save Emoji As",
+            "default_val": "unicode",
+            "doc": "The processor type of the how emojionearea saves icons to the source. Most system will recognize unicode. Image can be good to use too on webapp. Shortname is easier to read if emoji is not displayed. (ex: :cat:)",
+            "editor": "Dropdown",
+            "name": "save_emoji_as",
+            "options": "unicode,shortname,image",
+            "rank": 11
+        },
+        "AAa": {
+            "caption": "Shortcuts",
+            "default_val": true,
+            "doc": "If input is focused and tab is pressed, this will open picker.",
+            "editor": "DynamicValue",
+            "name": "shortcuts",
+            "rank": 12,
+            "value": "boolean"
+        },
+        "AAb": {
+            "caption": "AutoComplete",
+            "default_val": true,
+            "doc": "When user type : this will open a dropdown to choose from emoji related to text like :smile will show emoji 😄",
+            "editor": "DynamicValue",
+            "name": "autocomplete",
+            "rank": 13,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "AutoComplete Tones",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "autocomplete_tones",
+            "rank": 14,
+            "value": "boolean"
+        },
+        "AAd": {
+            "caption": "Dropdown # Emoji",
+            "default_val": 10,
+            "doc": "# Of emoji shown in the dropdown for autocomplete",
+            "editor": "DynamicValue",
+            "name": "dropdown_emoji",
+            "rank": 15,
+            "value": "number"
+        },
+        "AAe": {
+            "caption": "Dropdown Placement",
+            "doc": "Leave empty if you want it bottom.",
+            "editor": "Dropdown",
+            "name": "dropdown_placement",
+            "optional": true,
+            "options": "top,absleft,absright",
+            "rank": 16
+        },
+        "AAf": {
+            "caption": "Categories. You can choose a name for each category. If you leave it empty, this category will be deactivated.",
+            "editor": "Label",
+            "name": "categories",
+            "rank": 17
+        },
+        "AAg": {
+            "caption": "Smileys",
+            "default_val": "Smileys & People",
+            "editor": "DynamicValue",
+            "name": "smileys",
+            "optional": true,
+            "rank": 19,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "Animals",
+            "default_val": "Animals & Nature",
+            "editor": "DynamicValue",
+            "name": "animals",
+            "optional": true,
+            "rank": 20,
+            "value": "text"
+        },
+        "AAi": {
+            "caption": "Recent",
+            "default_val": "Recent",
+            "editor": "DynamicValue",
+            "name": "recent",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "Food",
+            "default_val": "Food & Drink",
+            "editor": "DynamicValue",
+            "name": "food",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        },
+        "AAk": {
+            "caption": "Activity",
+            "default_val": "Activity",
+            "editor": "DynamicValue",
+            "name": "activity",
+            "optional": true,
+            "rank": 22,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "Travel",
+            "default_val": "Travel & Places",
+            "editor": "DynamicValue",
+            "name": "travel",
+            "optional": true,
+            "rank": 23,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "Objects",
+            "default_val": "Objects",
+            "editor": "DynamicValue",
+            "name": "objects",
+            "optional": true,
+            "rank": 24,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "Symbols",
+            "default_val": "Symbols",
+            "editor": "DynamicValue",
+            "name": "symbols",
+            "optional": true,
+            "rank": 25,
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Flags",
+            "default_val": "Flags",
+            "editor": "DynamicValue",
+            "name": "flags",
+            "optional": true,
+            "rank": 26,
+            "value": "text"
+        }
+    },
+    "icon": "ion-happy-outline",
+    "property_applications": {
+        "MinWidth": false,
+        "resizable": true
+    }
+}

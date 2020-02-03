@@ -1,0 +1,16 @@
+{
+    "categories": {
+        "0": "containers",
+        "1": "media",
+        "2": "social network",
+        "3": "blog",
+        "4": "mobile"
+    },
+    "demo_page": "https://sandboxjc.bubbleapps.io/emoji",
+    "description": "EmojioneArea is a small jQuery plugin that allows you to transform any html element into simple WYSIWYG editor with ability to use Emojione icons.\nThe end result is a secure text/plain in which the image icons will be replaced with their Unicode analogues.\n",
+    "image": "//s3.amazonaws.com/appforest_uf/f1567209810566x938432821211803600/img_151507.png",
+    "license": "open_source",
+    "link": "https://sandboxjc.bubbleapps.io/emoji",
+    "name": "Emoji One Area Picker",
+    "plugin_instructions": "Add element to page. Add Id of Input you want to use the picker. Use Native Bubble single or multiline input. Work with autobinding of this element.\n\nFor converter, you put it on the page  and set the text you need to convert.This text is available in the converter element state.\n\nEditor: https://bubble.io/page?type=page&name=emoji&id=sandboxjc&test_plugin=1567209674254x858786633827483600_current&tab=tabs-1"
+}

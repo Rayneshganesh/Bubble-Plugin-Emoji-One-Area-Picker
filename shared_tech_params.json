@@ -15,6 +15,22 @@
         "AAI": {
             "name": "emojione.min.css",
             "url": "//dd7tel2830j4w.cloudfront.net/f1567263960221x676548353391139800/emojione.min.css"
+        },
+        "AAz": {
+            "name": "emojionearea_mod.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1607563677722x436070874231416100/emojioneara_mod.min.js"
+        },
+        "ABC": {
+            "name": "jquery.textcomplete.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1608058804343x241787663624196670/jquery.textcomplete.min.js"
+        },
+        "ABD": {
+            "name": "emojioneare_mod2.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1608058842654x587209891912603600/emojioneara_mod2.min.js"
+        },
+        "ABG": {
+            "name": "emojionejc.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1642985584270x482533582618751800/emojionjc.js"
         }
     },
     "dependencies": {

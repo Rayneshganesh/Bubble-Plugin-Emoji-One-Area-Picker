@@ -1,0 +1,14 @@
+{
+    "caption": "Set Text",
+    "doc": "",
+    "fields": {
+        "AAv": {
+            "caption": "Text",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "text",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}
